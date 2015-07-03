@@ -1,0 +1,142 @@
+/* Fonts */
+html{
+	font-size: 100%;	
+}
+input, select, textarea{
+	font-size: 100%;
+}
+
+form label{
+	cursor: pointer;
+}
+
+img{
+	border: none;
+}
+
+input{
+	vertical-align: middle;
+}
+
+/* General */
+#container{
+	overflow: hidden;
+	width: 660px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.navigation-controls {
+	position: relative;
+	text-align: center;
+	background: #fff;
+	padding: 5px;
+	z-index: 800;
+}
+
+/* Picture slides */
+.picture-slides-disabled {
+	color: #666;
+}
+
+.picture-slides-container {
+	margin-bottom: 2em;
+}
+
+.picture-slides-dimmed-background .navigation-controls {
+	-moz-border-radius : 0 0 5px 5px;
+	-webkit-border-top-left-radius : 0;
+	-webkit-border-top-right-radius : 0;
+	-webkit-border-bottom-left-radius : 5px;
+	-webkit-border-bottom-right-radius : 5px;
+}
+
+.picture-slides-dimmed-background .picture-slides-image-text {
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-top-left-radius : 5px;
+	-webkit-border-top-right-radius : 5px;
+	-webkit-border-bottom-left-radius : 0;
+	-webkit-border-bottom-right-radius : 0;
+}
+
+.picture-slides-fade-container {
+	position: relative;
+	overflow: hidden;
+	z-index: 800;
+}
+
+.picture-slides-fade-container a {
+	display: block;
+	height: 487px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.picture-slides-image-load-fail {
+	display: none;
+}
+
+.picture-slides-image-text {
+	position: relative;
+	background: #fff;
+	text-align: center;
+	padding: 5px 0 10px;
+	z-index: 800;
+}
+
+.picture-slides-previous-image, 
+.picture-slides-next-image, 
+.picture-slides-start-slideshow, 
+.picture-slides-stop-slideshow {
+	display: none;
+}
+
+.picture-slides-previous-image, 
+.picture-slides-next-image, 
+.picture-slides-start-slideshow, 
+.picture-slides-stop-slideshow {
+	cursor: pointer;
+}
+
+.picture-slides-thumbnails {
+	list-style: none;
+	margin-top: 1em;
+	overflow: hidden;
+}
+
+.picture-slides-thumbnails li {
+	float: left;
+	width: 100px;
+	margin: 0 8px 5px 0;
+}
+
+.picture-slides-thumbnails li img {
+	width: 100px;
+	border: 2px solid #999;
+}
+
+.picture-slides-thumbnails a {
+	outline: none;
+}
+
+.picture-slides-thumbnails li .picture-slides-selected-thumbnail img {
+	width: 100px;
+	border: 2px solid #ff3300;
+}
+
+.picture-slides-dim-overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.8;
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+	/* For IE 8 (and 9, 10, 11?). Don't miss the added quotes */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	z-index: 700;
+	display: none;
+}

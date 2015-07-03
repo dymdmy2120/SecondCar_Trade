@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.fontCss {
+	font-family: "宋体";
+	font-size: 16px;
+	color: #FFF;
+	background-color: #66f;
+	bgcolor: #66f;
+}
+
+.timeCss{
+	color:#F00;
+};
+
+
+

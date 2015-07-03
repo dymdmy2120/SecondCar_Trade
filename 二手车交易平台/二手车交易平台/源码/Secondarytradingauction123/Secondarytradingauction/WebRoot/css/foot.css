@@ -1,0 +1,136 @@
+#footer
+{
+background: #cccccc  repeat-x top left; 
+	margin-top: 0px;
+	clear: both;
+	vertical-align: bottom;
+	margin-left:180px;
+}
+.footer-container
+{
+	width: 960px;
+	margin: 0px auto;
+	padding: 0px 20px 0px 20px;
+}
+.footer-sitemap-icon
+{
+	padding-left: 6px;
+}
+.footer-sitemap
+{
+	padding: 20px 0px 20px 0px;
+	border-bottom: 1px solid #000;
+	color: #666;
+	float: left;
+}
+.footer-sitemap ul
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+.footer-sitemap li
+{
+	list-style: none;
+	color: #333;
+}
+.footer-sitemap li:first-child
+{
+	margin-left: 0px;
+}
+li.sitemap-nodes-title
+{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+li.sitemap-nodes
+{
+	float: left;
+	display: inherit;
+	margin-left: 40px;
+}
+li.sitemap-nodes-child
+{
+	margin: 10px 0px 10px 5px;
+}
+li.sitemap-nodes-child a
+{
+	background:  no-repeat left;
+	padding: 2px 0px 2px 24px;
+	color: #333;
+}
+li.sitemap-nodes-child a:hover
+{
+	color: #f90;
+	background: no-repeat left;
+}
+.copyright-info
+{
+	text-align: center;
+	color: #000;
+	font-size: 12px;
+	clear: both;
+	padding: 20px 0px 20px 0px;
+	border-top: 1px solid #333;
+}
+.copyright-info a
+{
+	color: #00F;
+}
+.copyright-info a:hover
+{
+	color: #f90;
+}
+.copyright-info a[class="validation-xhtml"]
+{
+	background:  no-repeat right;
+	padding-right: 70px;
+}
+.copyright-info a[class="validation-css"]
+{
+	background:  no-repeat right;
+	padding-right: 70px;
+}
+.footer-nav-links
+{
+	clear: both;
+	padding-bottom: 0px;
+}
+.footer-nav-links-title
+{
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	clear: both;
+}
+.footer-nav-links-list
+{
+	clear: both;
+	padding-bottom: 10px;
+}
+.footer-nav-links-list ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+.footer-nav-links-list li
+{
+	list-style: none;
+	display: inline;
+}
+.footer-nav-links-list li:first-child
+{
+}
+.footer-nav-links-list li a
+{
+	color: #000;
+	background: no-repeat right;
+	padding: 0px 16px 0px 5px;
+}
+.footer-nav-links-list li a:hover
+{
+	color: #f90;
+	background:  no-repeat right;
+	padding-right: 16px;
+}

@@ -1,0 +1,33 @@
+#car-list-left{
+border-top: 1px #ccc solid;
+border-left: 1px #ccc solid;
+border-bottom: 1px #ccc solid;
+padding:2px;
+}
+
+#car-list-right{
+border-top: 1px #ccc solid;
+border-right: 1px #ccc solid;
+border-bottom: 1px #ccc solid;
+}
+#car-list-mid{
+border: 1px #ccc solid;
+}
+
+#detail-photo {
+	 height:auto !important;
+	height:10px;
+	min-height:10px; 
+	 width:650px;
+	 float:left;
+	 margin-top:10px;
+	 z-index: -1;
+}
+#detail{
+	 height:auto !important;
+	height:10px;
+	min-height:10px; 
+	 width:310px;
+	 float:right;
+	  margin-top:15px;
+}

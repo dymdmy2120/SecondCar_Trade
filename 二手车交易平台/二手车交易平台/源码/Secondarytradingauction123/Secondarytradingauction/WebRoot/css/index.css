@@ -1,0 +1,303 @@
+img {
+	border-color:#FFF;
+	border:0;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+.test_demo_ellipsis{text-overflow:ellipsis; overflow:hidden; white-space:nowrap; width:230px;}
+
+.tdsize  td{
+	width:170px;
+	height:300px;}
+.defsize td {
+	width:200px;
+	height:300px;
+	}
+	
+.tabletd td {
+	margin:10px;
+	}
+	
+.diva a{
+	border:#0F3;}
+
+body,button,input,select,textarea {
+	font: 12px/1.6 Verdana, Helvetica, sans-serif;
+}/*—≈∫⁄£∫\5FAE\8F6F\96C5\9ED1  Verdana, Helvetica, sans-serif*/
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+
+button,input,select,textarea {
+	font-size: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,ol {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.layout:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.layout {
+	*zoom: 1;
+}
+
+.cf:before,.cf:after {
+	content: '';
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
+
+small, cite, code, em, th, i, b {
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.up {
+	height: 45px;
+	width:1050px;
+	margin:auto 160px;
+	background:url(../img/beijing.png) no-repeat;
+	background-size:1045px 45px;
+	position: relative;
+	text-align: center;
+	z-index: 999;
+}
+
+.header {
+	height: 45px;
+	width: 1000px;
+	margin: 0 auto;
+	display: inline-block;
+	text-align: left;
+}
+
+.topnav {
+	height: 43px;
+	float: left;
+	padding: 0 0 0 10px;
+}
+
+.nav > a {
+	height: 43px;
+	line-height: 44px;
+	line-height: 47px\9;
+	color: #000;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	font-size: 14px;
+}
+
+
+.more {
+	width: 50px;
+	height: 43px;
+	line-height: 44px;
+	line-height: 47px\9;
+	color: #000;
+	text-align: center;
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+	cursor: default;
+	position: relative;
+	padding-right: 10px;
+}
+
+.more b {
+	position: absolute;
+	top: 21px;
+	right: 7px;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	border-style: solid dashed dashed dashed;
+	border-width: 5px 5px;
+	border-color: #8c6000 #ffae00 #ffae00;
+}
+
+.topheadright {
+	float: right;
+	margin-right: -1px;
+}
+
+.thrUl {
+	float: right;
+	height: 15px;
+	margin-left:100px;
+}
+
+.thrUl > li {
+	float: left;
+	position: relative;
+}
+
+.doLogBox {
+	line-height: 43px;
+}
+
+.thrUl .doLogBox a {
+	color: #000;
+	margin: 0 5px;
+}
+
+.topSearch {
+	display: inline-block;
+	height: 25px;
+	float: right;
+	margin: 9px 10px 0 0;
+	margin: 8px 10px 0 0\9;
+	position: relative;
+	border: 1px solid #ff9200;
+	background: #fff;
+}
+
+.topSearchTxt {
+	height: 25px;
+	width: 143px;
+	line-height: 25px;
+	border: 0;
+	float: left;
+	margin-right: 5px;
+	padding: 0 0 0 5px;
+}
+
+.topSearchBtn {
+	height: 25px;
+	width: 24px;
+	cursor: pointer;
+	background: url(bs.png) no-repeat;
+	border: 0;
+}
+
+.topSearchBtn:hover {
+	background: url(bs.png) #fff no-repeat left -24px;
+}
+
+.chooseS {
+	background: #2d2d2d;
+	position: absolute;
+	top: 26px;
+	left: 0;
+	width: 177px;
+	padding: 5px 0;
+	display: none;
+}
+
+.chooseS input {
+	margin: 0 3px 0 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.chooseS label {
+	color: #FFF;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+body,ul,li{margin:0;padding:0;}
+li{ list-style:none;}
+.daohang_003{width:960px; margin:0 auto;}
+.menu_mb_003{width:960px;height:50px;float:left; background-color:#66F; display:inline; repeat-x;}
+.menu_mb_003 li{width:100px;float:left;height:26px; display:inline;  text-align:center; line-height:26px; margin:12px 30px;}
+.menu_mb_003 li a{ color:#eee; text-decoration:none; font-size:12px;width:100px;float:left;height:26px; display:inline;}
+.menu_mb_003 li a:hover{ color:#333; no-repeat right top;}
+
+.logoposition {
+	width:1200px;
+	height:100px;}
+.logo {
+	width:300px;
+	height:100px;
+	margin-left:200px;
+	}
+.loginleft {
+	width:300px;
+	height:400px;
+	margin-left:200px;}
+
+/*Õ®”√*/
+body{font:12px Arial,Verdana,Tahoma,"ÀŒÃÂ";}
+*{padding:0px;margin:0px;}
+* li{list-style:none;}
+a{text-decoration:none;color:#20537A;}
+a:hover{text-decoration:underline;}
+
+.clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix {
+    _zoom: 1;
+}
+*+html .clearfix {
+	overflow:auto;
+}
+
+.menu_navcc{width:1100px; margin-left:180px;}
+.menu_nav{width:1000px;height:48px;background:url(../img/nav_bg.gif) repeat-x;float:left;margin-top:18px;}
+.menu_nav .nav_content{padding-left:25px;background:url(../img/nav_l_bg.gif) no-repeat;float:left;}
+.menu_nav .nav_content li{width:88px;height:48px;padding-left:15px;padding-right:13px;background:url(../img/nav_li_right.gif) no-repeat right center;float:left;line-height:48px;text-align:center;font-size:14px;font-weight:bold;}
+.menu_nav .nav_content li a{color:#fff;width:88px;height:48px;display:block;}
+.menu_nav .nav_content li.current{line-height:37px;}
+.menu_nav .nav_content li em{background:url(../img/bid_new.gif) no-repeat;width:35px;height:21px;display:inline-block;position:absolute;top:-20px;left:40px;}
+
+.menu_nav .nav_content li.current a,.menu_nav .nav_content li a:hover{width:88px;height:37px;background:url(../img/nav_li_current.gif) no-repeat;display:block;color:#fff;}
+.menu_nav .nav_content li a:hover{background:url(../img/nav_li_hover.gif) no-repeat;line-height:37px;text-decoration:none;}
+
+.menu_nav_right{padding-right:20px;background:url(../img/nav_r_bg.gif) no-repeat right top;float:right;margin-left:50px;padding-top:13px;height:23px;padding-bottom:12px;}
+p{
+margin-bottom:15px}
+
+.img_switch {margin:0 auto;WIDTH:1000px;HEIGHT: 261px; overflow:hidden}
+.img_switch_content {HEIGHT: 261px;position:relative;}
+.img_switch_text {width: 262px;position: absolute;z-index:10; bottom:5px;left:10px;HEIGHT: 15px; z-index:10000 !important}
+.number_nav {DISPLAY: inline;FLOAT: left;}
+.number_nav UL {font:12px Arial, Helvetica, sans-serif;padding: 0px;MARGIN: 0px;LIST-STYLE-TYPE: none;color:#fff;}
+.number_nav UL LI {float: left;font-weight: bold;background: #000;float: left;margin-right: 8px;width: 23px;cursor: pointer;line-height: 17px;height: 17px;text-align: center;filter:alpha(opacity=75);-moz-opacity:0.75;opacity: 0.75;}
+#pic {OVERFLOW: hidden}
+
+.wrap {
+	margin: 0 auto;
+	width: 980px;
+}
+
+.main {
+		margin-bottom: 25px;
+		padding: 0 0 20px;
+		background-color: #fbfafa;
+		
+		-webkit-border-radius: 3px;
+		   -moz-border-radius: 3px;
+				border-radius: 3px;
+	}

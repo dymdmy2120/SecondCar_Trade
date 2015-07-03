@@ -1,0 +1,43 @@
+/*   shiguche  */
+.box1{ width:960px; overflow:visible; border-right: 1px solid #DADADA; border-left:1px solid #dadada; border-bottom:1px solid #dadada;
+    margin: 10px 0 0; padding: 0; clear:both;}
+.Patitle1 { background: url("../images/wbg6.jpg") repeat-x scroll 0 0 transparent; height: 35px; line-height: 33px;
+    overflow: visible; width: 958px;}
+.PaLL { background: url("../images/NewIndexBg.png") no-repeat scroll -450px -225px transparent;
+    color: #FFFFFF; float: left; font-size: 14px; font-weight: 600; height: 32px; letter-spacing: 1px; margin: 0 10px;
+    position: relative; top: -4px; width: 109px; padding-left:20px;}
+    .PaLL1 { background: url("../images/NewIndexBg.png") no-repeat scroll -450px -225px transparent;
+    color: #FFFFFF; float: left; font-size: 14px; font-weight: 600; height: 32px; letter-spacing: 1px; margin: 0 10px;
+    position: relative; top: -4px; width: 109px; padding-left:8px;}
+.ClassCon { padding: 0 5px;}
+.itemname { background: none repeat scroll 0 0 #F1F1F1; height: 26px; margin: 0; overflow: visible; text-align: left;}
+.More { font-size: 12px;}
+.More { float: right; margin: 0 20px 0 0;}
+.zuixin { clear: both; margin: 8px auto 5px; padding: 0; width: 960px;}
+.title_Bg { background: url("../images/NewIndexBg1.gif") no-repeat scroll 0 0 transparent; height: 28px; line-height: 30px;
+    margin-top: 10px; overflow: hidden; padding-left: 30px; width: 930px; font-size:14px;}
+.new_cont{  width:958px; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px solid #ccc; padding:5px 0 4px;}
+.remen{ width:960px; margin:10px auto; overflow:hidden; clear:both;}
+.remen_l {float:left; overflow:hidden; border: 1px solid #E6E6E6; padding: 1px; width: 692px;}
+.remen_r{ width:230px; float:left; margin-left:10px; padding:1px;} 
+.remen_l_title { background: url("../images/icon11.gif") repeat-x scroll 0 0 transparent; font-size: 14px; height: 27px;
+    line-height: 28px; overflow: hidden; padding-left: 15px; text-align:left;}
+.remen_r_title{ width:228px; height:28px; line-height:30px; background: url("../images/NewIndexBg.png") no-repeat scroll 0 -350px transparent;
+    padding-left:25px; overflow:hidden; font-size:14px;}
+.MoreGd { display: block; float: right; font-size: 12px; margin: 0 5px 0 0;}
+.More{ float:right; margin:0 12px 0 0;color: #0063B8; cursor:pointer}
+.FloadR1 { background: url("../images/NewIndexBg.png") no-repeat scroll 1px -125px transparent; float: right; height: 28px;
+    margin: 0; width: 10px;}
+.remen_l_cont{ height:180px; overflow:hidden; clear:both; padding:15px;}
+.remen_l_cont dt{ float:left; padding-top:25px;}
+.remen_l_cont dd{ float:left;}
+.remen_l_cont dd li{ float:left; padding:11px 7px; text-align:center;}
+.remen_l_cont dd li span{ color:#666; display: block; height: 40px; line-height: 20px; overflow: hidden; width: 100px;}
+.or{ color:#ff6600;}
+.remen_l_cont dd img{ border:1px solid #ccc; width:100px; height:100px; padding:3px;}
+.remen_r_cont{ height:196px; border-left: 1px solid #dadada; border-right: 1px solid #dadada; border-bottom:1px solid #dadada;
+    clear: both; line-height: 22px; overflow: hidden; padding: 8px 10px; text-align: left; width: 231px;}
+.remen_r_cont .CupShop { float: left; height: 20px; line-height: 18px; margin: 1px auto; overflow: hidden; text-align: left;
+    text-indent: 23px; text-overflow: ellipsis; white-space: nowrap; width: 228px;}
+.list ul.sgc { height: auto; list-style: none outside none; margin: 0 auto; padding: 10px; padding-top:4px; width: 924px;}
+.sgc li { float: left; height: 138px; margin: 10px; margin-top:0; overflow: hidden; width: 112px;}

@@ -1,0 +1,272 @@
+#main-1 {
+	 height:295px;
+	 overflow:hidden;
+	 margin-bottom:5px;
+}
+#main-ad {
+	 height:295px;
+	 width:656px;
+	 float:left;
+}
+#main-login {
+     border: 1px #ccc solid;    
+	 height:205px;
+	 width:308px;
+	 float:right;	
+}
+#main-kkf{
+	height:81px;
+	 width:308px;
+	 float:right;
+	 margin:5px 0;
+	 border: 1px #ccc solid;
+	 background-image: url(/resource/images/service.gif);	
+	background-repeat: no-repeat;
+	 }
+/*ѡ�2*/
+#Tab2{
+width:310px;
+float:right;
+}
+/*�˵�class*/
+.Menubox {
+background:url(/resource/images/bg2.gif);
+height:31px;
+line-height:31px;
+}
+.Menubox ul{
+margin:0px;
+padding:0px;
+}
+.Menubox li{
+float:left;
+display:block;
+cursor:pointer;
+width:75px;
+text-align:center;
+color:#949694;
+font-weight:bold;
+}
+.Menubox li.hover{
+padding:0px;
+background:#fff;
+width:77px;
+border-left:1px solid #ccc;
+border-right:1px solid #dedede;
+border-top:1px solid #dedede;
+color:#949694;
+font-weight:bold;
+height:30px;
+line-height:30px;
+}
+.Contentbox{
+clear:both;
+border:1px solid #ccc;
+border-top:none;
+height:97px;
+padding-top:2px;
+}
+#con_two_1 , #con_two_2 {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+#con_two_1 p ,#con_two_2 p {
+	line-height: 18px;	
+	margin:0 5px;
+}
+#con_two_3 p {
+	width:128px;
+	margin-left:2px;
+	line-height: 18px;	
+	padding-left: 22px;	
+}
+.num1{
+	background-image: url(/resource/images/num1.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+.num2{
+	background-image: url(/resource/images/num2.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+.num3{
+	background-image: url(/resource/images/num3.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+.num4{
+	background-image: url(/resource/images/num4.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+.num5{
+	background-image: url(/resource/images/num5.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+.num6{
+	background-image: url(/resource/images/num6.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+.num7{
+	background-image: url(/resource/images/num7.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+.num8{
+	background-image: url(/resource/images/num8.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+.num9{
+	background-image: url(/resource/images/num9.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+.num10{
+	background-image: url(/resource/images/num10.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+#main-livechat {	   
+	 height:129px;
+	 width:310px;
+	 float:right;	
+}
+#main-2 {
+	 height:130px;
+	 margin-bottom:5px;
+}
+#main-buy{
+float:left;
+}
+#login-tab {	 
+	 height:200px;
+	 width:308px;
+	 margin-top:30px;
+}
+
+#main-3 {
+     height:auto !important;height:10px;min-height:10px;
+}
+
+#main-4 {
+	 height:800px;
+	 margin-bottom:5px;
+}
+#index-k{
+height:auto !important;
+height:10px;
+min-height:10px;
+margin:0 auto;
+width:968px;
+border-left: 1px #cccccc solid;
+border-right: 1px #cccccc solid;
+border-bottom: 1px #cccccc solid;
+}
+#main-top-left {
+	 height:436px;
+	 width:655px;
+	 float:left;
+}
+
+#main-house-des {
+	height: 50px;
+	 margin-right:10px;
+}
+
+#main-house-btn {
+	 margin-right:32px;
+	 margin-bottom:10px;
+}
+
+#main-login-bottom{
+border-top: 1px #ccc solid;
+background-color:#f5f5f5;
+height:30px;
+width:308px;
+font-size:14px;
+line-height:30px;
+}
+.fontgray{color:#999;}
+.fontgreen{color:#33CC00;}
+.fade { width:308px; margin:0px auto;overflow:hidden; }
+.fade li{line-height:24px; border-bottom:#999 dotted 1px;}
+.fade .tabs { float:left; overflow:auto;}
+/*.fade .tabs li {
+  float:left; list-style:none; border-right:1px solid #ccc;border-bottom:1px solid #ccc;}
+.fade .tabs li a { 
+  line-height:28px;display:block; float:left; width:70px; height:28px; text-align:center; color:#034976;
+  text-decoration:none;background:url(/resource/images/bk-b-1.gif);}
+.fade .tabs li:hover { margin:0; border-right:1px solid #2788ba;border-bottom:1px solid #2788ba;}*/
+.fade .tabs li a.selected {font-weight:bold}
+.fade .items { clear:both; padding:2px 0 5px; position:relative; top:0; left:0; height:90px; line-height:18px;}
+.fade .items div { display:none; position:absolute; top:0; left:0; padding-left:6px;}
+
+
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.clear {
+	CLEAR: both
+}
+#featured {
+	OVERFLOW: hidden; WIDTH: 656px; POSITION: relative; HEIGHT: 253px
+}
+#featured .word {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; Z-INDEX: 10; BACKGROUND: url(../images/bg_transparent.gif) no-repeat; LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 655px; COLOR: #fff; BOTTOM: 0px; PADDING-TOP: 8px; POSITION: absolute; HEIGHT: 50px
+}
+#featured .word H3 {
+	FONT-SIZE: 13px
+}
+#featured .ui-els-hide {
+	DISPLAY: none
+}
+#thumbs {
+	WIDTH: 656px; LIST-STYLE-TYPE: none; HEIGHT: 35px;
+}
+* HTML #thumbs {
+	HEIGHT: 100%;
+}
+#thumbs LI {
+	DISPLAY: inline; FLOAT: left; WIDTH: 63x; MARGIN-RIGHT: 4px; HEIGHT: 35px
+}
+#thumbs UL {
+	MARGIN-TOP: 5px; MARGIN-left: 0px; MARGIN-bottom: 0px; MARGIN-right: 0px;
+}
+#thumbs LI A {
+	BORDER-RIGHT: #cccccc 2px solid; BORDER-TOP: #cccccc 2px solid; DISPLAY: block; FONT-SIZE: 0px; BORDER-LEFT: #cccccc 2px solid; WIDTH: 60px; BORDER-BOTTOM: #cccccc 2px solid
+}
+#thumbs LI A:hover {
+	BORDER-RIGHT: #ccc 2px solid; BORDER-TOP: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; BORDER-BOTTOM: #ccc 2px solid
+}
+#thumbs LI A.current {
+	BORDER: #ff3300 2px solid;
+}
+#thumbs LI.first_img {
+	MARGIN-LEFT: 3px
+}
+#thumbs LI.last_img {
+	MARGIN-RIGHT: 3px
+}
+#thumbs LI.first {
+	MARGIN: 0px 0px 0px 0px; WIDTH: 20px; CURSOR: pointer; HEIGHT: 36px
+}
+#thumbs LI.last {
+	MARGIN: 0px 0px 0px 0px; WIDTH: 20px; CURSOR: pointer; HEIGHT: 36px
+}
+#thumbs LI.first IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; FLOAT: left;
+}
+#thumbs LI.last IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; FLOAT: right;
+}
+#topstory {
+	MARGIN: 0px 0px 0px 0px auto;BACKGROUND: #fff; WIDTH: 656px; HEIGHT: 295px
+}
+#highlight {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 656px; PADDING-TOP: 0px
+}

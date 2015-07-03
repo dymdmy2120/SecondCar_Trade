@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 2.6//EN"
+        "http://tuckey.org/res/dtds/urlrewrite2.6.dtd">
+
+<!--
+
+    Configuration file for UrlRewriteFilter
+    http://tuckey.org/urlrewrite/
+
+-->
+<urlrewrite>
+	<!-- 以下全部是jsp的配置 -->
+    <rule>
+            <from>/admin.html</from>
+            <to>/backstage.jsp</to>
+    </rule>
+    <rule>
+            <from>/index\.html</from>
+            <to >/index.jsp</to>
+    </rule>
+    <rule>
+            <from>/login\.html</from>
+            <to>/login.jsp</to>
+    </rule>
+    <rule>
+            <from>/AdminLogin\.html</from>
+            <to>/admin_login.jsp</to>
+    </rule>
+     <rule>
+            <from>/login/forget</from>
+            <to>/forgetPassword.jsp</to>
+    </rule>
+      <rule>
+            <from>/login/Back</from>
+            <to>/findBack.jsp</to>
+    </rule>
+     <rule>
+            <from>/register</from>
+            <to>/enrol.jsp</to>
+    </rule>
+     <rule>
+            <from>/exit</from>
+            <to>/cancel.jsp</to>
+    </rule>
+    
+    <rule>
+            <from>/paimai/(.+)\.html</from>
+            <to>/user_file/NetworkAuction/NetworkAuction.jsp?v_id=$1</to>
+    </rule>
+      <rule>
+            <from>user.html</from>
+            <to>/user_file/UserInfo/User.jsp</to>
+    </rule>
+   
+     <rule>
+            <from>/user/(.+)\.html</from>
+            <to>/user_file/UserInfo/User_$1.jsp</to>
+    </rule>
+    
+     <rule>
+            <from>/paimai/vehicle-(.+)</from>
+            <to>/user_file/NetworkAuction/NetworkAuction.jsp?v_id=$1</to>
+    </rule>
+   
+      <rule>
+            <from>/company.html</from>
+            <to>/user_file/compyIntro/company.jsp</to>
+    </rule>
+    <!-- 以下全部是Servlet的配置 -->
+    <rule>
+            <from>/paimai.html</from>
+            <to>/AutionForListServlet</to>
+    </rule>
+    
+    <rule>
+            <from>/zlpc/(.+)</from>
+            <to>/LoginServlet?operater=$1</to>
+    </rule>
+     <rule>
+            <from>/(.+)_(.+)\.html</from>
+            <to>/QueryServlet?view=$1&amp;param=$2</to>
+    </rule>
+   
+     <rule>
+            <from>/ypgonggao/skip=(.+)</from>
+            <to>/PrTaNoticeServlet?view=PrTaNoticePage&amp;firstIndex=$1</to>
+    </rule>
+     <!-- 显示页面 -->
+    <rule>
+            <from>/show/(.+)\.html</from>
+            <to>/QueryServlet?view=$1</to>
+    </rule>
+    <!-- 条件查询 -->
+    <rule>
+            <from>/query/(.+)/(.+)=(.+)</from>
+            <to>/QueryServlet?view=$1&amp;queryCondition=$2&amp;queryValue=$3&amp;size=2</to>
+    </rule>
+   
+     <rule>
+            <from>/query/(.+)_(.+)&amp;skip=(.+)</from>
+            <to>/QueryServlet?view=$1&amp;queryCondition=u_id&amp;queryValue=$2&amp;firstIndex=$3&amp;size=2</to>
+    </rule>
+     <rule>
+            <from>/vihicle-(\d+)\.html</from>
+            <to>/QueryServlet?view=VehicleVo&amp;queryCondition=v_id&amp;queryValue=$1</to>
+    </rule>
+     <rule>
+            <from>/notice/(.+)\.html</from>
+            <to>/ShowAnnounceServlet?n_id=$1</to>
+    </rule>
+    <rule>
+            <from>/help/(.+)\.html</from>
+            <to>/QueryServlet?view=Notice&amp;param=front&amp;queen=$1</to>
+    </rule>
+     <rule>
+            <from>/company/(.+)\.html</from>
+            <to>/QueryServlet?view=Notice&amp;param=suibian&amp;goto=$1</to>
+    </rule>
+     <rule>
+            <from>/ypgonggao.html</from>
+            <to>/PrTaNoticeServlet?view=PrTaNoticePage</to>
+    </rule>
+    
+    <outbound-rule>
+        <note>
+            The outbound-rule specifies that when response.encodeURL is called (if you are using JSTL c:url)
+            the url /rewrite-status will be rewritten to /test/status/.
+
+            The above rule and this outbound-rule means that end users should never see the
+            url /rewrite-status only /test/status/ both in thier location bar and in hyperlinks
+            in your pages.
+        </note>
+        <from>/rewrite-status</from>
+        <to>/test/status/</to>
+    </outbound-rule>
+
+
+    <!--
+
+    INSTALLATION
+
+        in your web.xml add...
+
+        <filter>
+            <filter-name>UrlRewriteFilter</filter-name>
+            <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+            <init-param>
+                <param-name>logLevel</param-name>
+                <param-value>WARN</param-value>
+            </init-param>
+        </filter>
+        <filter-mapping>
+            <filter-name>UrlRewriteFilter</filter-name>
+            <url-pattern>/*</url-pattern>
+        </filter-mapping>
+
+     EXAMPLES
+
+     Redirect one url
+        <rule>
+            <from>/some/old/page.html</from>
+            <to type="redirect">/very/new/page.html</to>
+        </rule>
+
+    Redirect a directory
+        <rule>
+            <from>/some/olddir/(.*)</from>
+            <to type="redirect">/very/newdir/$1</to>
+        </rule>
+
+    Clean a url
+        <rule>
+            <from>/products/([0-9]+)</from>
+            <to>/products/index.jsp?product_id=$1</to>
+        </rule>
+    eg, /products/1234 will be passed on to /products/index.jsp?product_id=1234 without the user noticing.
+
+    Browser detection
+        <rule>
+            <condition name="user-agent">Mozilla/[1-4]</condition>
+            <from>/some/page.html</from>
+            <to>/some/page-for-old-browsers.html</to>
+        </rule>
+    eg, will pass the request for /some/page.html on to /some/page-for-old-browsers.html only for older
+    browsers whose user agent srtings match Mozilla/1, Mozilla/2, Mozilla/3 or Mozilla/4.
+
+    -->
+
+</urlrewrite>
+
